@@ -12,10 +12,10 @@ int main(void)
 	long int baby = 0;
 	long long int cowleg = 0;
 
-	printf("size of a char: %i byte(s)\n", sizeof(goat));
-	printf("size of a int: %i byte(s)\n", sizeof(kettle));
-	printf("size of a float %i byte(s)\n", sizeof(monney));
-	printf("size of a long int: %i byte(s)\n", sizeof(baby));
-	printf("size of a long long int: %i byte(s)\n", sizeof(cowleg));
+	printf("size of a char: %d byte(s)\n", sizeof(goat));
+	printf("size of a int: %d byte(s)\n", sizeof(kettle));
+	printf("size of a float %d byte(s)\n", sizeof(monney));
+	printf("size of a long int: %d byte(s)\n", sizeof(baby));
+	printf("size of a long long int: %d byte(s)\n", sizeof(cowleg));
 	return (0);
 }
